@@ -1,0 +1,87 @@
+.person-card {
+    transition: transform 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+.person-card:hover {
+    transform: translateY(-5px);
+}
+
+.status-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.status-missing {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-safe {
+    background-color: #198754;
+    color: white;
+}
+
+.status-found {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.card-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+/* New Dashboard Styles */
+.weather-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.weather-stat i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #0d6efd;
+}
+
+.weather-stat span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.weather-stat small {
+    color: #6c757d;
+}
+
+#alertsList li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.navbar-brand i {
+    font-size: 1.5rem;
+}
